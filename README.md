@@ -1,4 +1,4 @@
-This is a clone with few minor fixes (4.4 sailjail, filemanager and topbar) of ekkelund's tIDE: https://github.com/eekkelund/harbour-tIDE
+This is a clone with few minor fixes (4.4 sailjail, filemanager and topbar) of eekkelund's tIDE: https://github.com/eekkelund/harbour-tIDE
 
 Follows original README:
 # tIDE
