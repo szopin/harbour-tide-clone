@@ -1,0 +1,87 @@
+# Rename this file as harbour-tide.changes to include changelog
+# entries in your RPM file.
+#
+# Add new changelog entries following the format below.
+# Add newest entries to the top of the list.
+# Separate entries from eachother with a blank line.
+
+# * date Author's Name <author's email> version-release
+# - Summary of changes
+
+* Thu Jun 08 2017 Eetu  Kahelin <eekkelund> 0.2.10-2
+-Improved Search
+-Possibility to Search/Replace
+
+* Thu May 25 2017 Eetu  Kahelin <eekkelund> 0.2.10-1
+- Visual changes, splitview and topbar
+-Add possibility set as default text editor. Add possibility to edit system files; Root support
+
+* Wed May 17 2017 Eetu Kahelin <eekkelund> 0.2.9-1
+-Small cosmetic settings page fixes
+-Fix file opening in splitview with system file manager
+-Fix untitled saving
+
+* Tue May 16 2017 Eetu Kahelin <eekkelund> 0.2.8-1
+-Improvements for system FileManager. Option to use System File Manager as quick file manager
+-Highlightning rewrite, faster, better, cleaner, newer, more functionality. Change QRegExp to QRegularExpression. Better multiline, quotation and search highlight
+-Settings page rewrite. Add settings shortcut to topbar
+-Add option to disable highlight, clean code; create functions
+-Break long .qml pages to smaller components
+-More fonts
+-Bash syntax highlighting
+
+* Thu May 5 2017 Eetu Kahelin <eekkelund> 0.2.7-2
+-Minor improvements for highlight.
+
+* Tue Apr 26 2017 Eetu Kahelin <eekkelund> 0.2.7-1
+-Harbour version! Released in Jolla store, just the editor part.
+-Improved search highlight and improved highlight in general
+-New cover
+-And small bug fixes, getting ready for Git support
+
+* Tue Apr 2 2017 Eetu Kahelin <eekkelund> 0.2.6-1
+-Harbour version! Just the editor part though
+-Bugfix: App output working also on SFOS 2.1.x.x
+
+* Tue Feb 5 2017 Eetu Kahelin <eekkelund> 0.2.5-4
+-Create ~/tIDE and ~/tIDE/Projects folders automaticly
+-Bugfix: if project name different than main.qml file then app not able to run.
+-Update swedish translation(eson57)
+-'Bugfix':  fileowner issues (Issue #11) and multiline working again
+
+* Tue Jan 31 2017 Eetu Kahelin <eekkelund> 0.2.5-1
+-Able to start from command line in rootmode.
+-Tabulator key settings, (Real tab - 8spaces)
+-Bugfix: Linecounting works now WOOoo:)
+-Swedish(eson57) and Dutch (d9h02f) translations
+-Bugfix: Respect system allowed orientations settings.(Issue#9)
+-Bugfix: Come back to right folder when returning from editor and indentation function improving
+-Slightly better highlighting time, which affects file opening time
+-Fix: Better tab setting, not final though
+-Settings page available from EditorPage!
+-Better higlighting time, not perfect yet. Multiline needs fix
+-Added enterkey icon for searchbar in editorpage(GoAlexander)
+
+* Wed Jan 18 2017 Eetu Kahelin <eekkelund> 0.2-1
+- Added tabulator key, visible on Sym view
+- Added selecting and jumping words to cursor keys
+- Show notification on Python error
+- Possibility to navigate to SD Card-Root-usr/share
+- Adding files in FileManagerPage possible
+- Improved search function
+- Improved spec files
+- Fixed ShiftKey bug
+- Updated keyboard layoyt
+- Added support for hw keyboard. CTRL+F and CTRL+S
+- Fixed keyboard prediction suggestions bug
+- Split view for tablet, quick file change inside editor and scrollable topbar
+- Key shortcuts & predicting support for split view
+- Fixed bug if building not example project
+- Root mode support and renamed directories
+- If build has been successfull possibility to install app
+- Possibility to change splitter position in split view
+- Possibility to delete projects. In CreatorHome via the long-tap-menu in the ListItems, and the pull down menu in ProjectHome. RemorseItem and RemorsePopup in use.(wellef)
+- Add support for wrap mode setting for the editor. As a result the editors textarea is now able to flick in both directions when needed.(wellef)
+
+* Wed Dec 21 2016 Eetu Kahelin <eekkelund> 0.1-1
+- Initial release
