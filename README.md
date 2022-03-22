@@ -1,4 +1,6 @@
- 
+This is a clone with few minor fixes (4.4 sailjail, filemanager and topbar) of ekkelund's tIDE: https://github.com/eekkelund/harbour-tIDE
+
+Follows original README:
 # tIDE
 
 tIDE, transportable IDE, is an application for SailfishOS to create new applications on the go! You can use it as pocket sized QtCreator or just normal text editor.
