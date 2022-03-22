@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>dictionaries/javascript.txt</file>
+        <file>dictionaries/keywords.txt</file>
+        <file>dictionaries/properties.txt</file>
+        <file>dictionaries/qml.txt</file>
+        <file>dictionaries/python.txt</file>
+        <file>dictionaries/bash.txt</file>
+    </qresource>
+</RCC>
