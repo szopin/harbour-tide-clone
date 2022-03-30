@@ -370,11 +370,11 @@
     </message>
     <message>
         <source>Tap to show top bar</source>
-        <translation type="unfinished"></translation>
+        <translation>tryck för att visa övre fält</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt</translation>
     </message>
 </context>
 <context>
@@ -671,7 +671,7 @@
     </message>
     <message>
         <source>About &amp; Help</source>
-        <translation type="unfinished">Om &amp; Hjälp</translation>
+        <translation>Om &amp; Hjälp</translation>
     </message>
     <message>
         <source>Use system file manager in editor</source>
@@ -694,7 +694,7 @@
     <name>TopBar</name>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Sök</translation>
+        <translation>Sök</translation>
     </message>
 </context>
 </TS>
